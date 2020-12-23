@@ -2,13 +2,27 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <a href="image-search.html">Image Search</a>
-        <a href="advanced-search.html">Advanced Search</a>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+        <div class="nav">
+            <div class="nav_wrapper">
+                <div class="nav-links">
+                    <a href="image-search.html">Images</a>
+                </div>
+                <div class="nav-links">
+                    <a href="advanced-search.html">Advanced</a>
+                </div>
+            </div>
+        </div>
+        <div class="search_logo"><img src="img/search.png"></div>
+        <form id="search-form" action="https://google.com/search">
+            <div class="inputWrapper">
+                <input class="search" name="q" type="search" autofocus title="Search"  aria-label="Find" maxlength="2048" spellcheck="false" autocomplete="off" aria-live="polite">
+            </div>
+            <div class="inputWrapper">
+                <input id="search_button" type="submit" value="Search">
+            </div>
         </form>
     </body>
 </html>
