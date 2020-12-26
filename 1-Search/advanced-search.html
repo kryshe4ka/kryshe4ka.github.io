@@ -8,14 +8,58 @@
         <div class="nav">
             <div class="nav_wrapper">
                 <div class="nav-links">
-                    <a href="index.html">< Back to search</a>
+                    < <a href="index.html">Back to search</a>
                 </div>
             </div>
         </div>
-        <div class="search_logo"><img src="search1.png"></div>
+        <div class="">
+
+        </div>
         <form id="search-form" action="https://google.com/search">
-            <div class="inputWrapper">
-                <input class="search" name="q" type="search" autofocus title="Search"  aria-label="Find" maxlength="2048" spellcheck="false" autocomplete="off" aria-live="polite">
+            <div class="input_advanced_wrapper">
+                <div>
+                    <div class="label">
+                        <label for="as_q">
+                            <font>all these words:</font>
+                        </label>
+                    </div>
+                    <div class="field_wrapper">
+                        <input id="as_q" name="as_q" type="text" autofocus="autofocus">
+                    </div>
+                </div>
+                <div>
+                    <div class="label">
+                        <label for="as_epq">
+                            <font>this exact word or phrase:</font>
+                        </label>
+                    </div>
+                    <div class="field_wrapper">
+                        <input id="as_epq" name="as_epq" type="text" autofocus="autofocus">
+                    </div>
+                </div>
+                <div>
+                    <div class="label">
+                        <label for="as_oq">
+                            <font>any of these words:</font>
+                        </label>
+                    </div>
+                    <div class="field_wrapper">
+                        <input id="as_oq" name="as_oq" type="text" autofocus="autofocus">
+                    </div>
+                </div>
+                <div>
+                    <div class="label">
+                        <label for="as_eq">
+                            <font>none of these words:</font>
+                        </label>
+                    </div>
+                    <div class="field_wrapper">
+                        <input id="as_eq" name="as_eq" type="text" autofocus="autofocus">
+                    </div>
+                </div>
+                <input type="hidden" name="as_occt" value="any">
+                <input type="hidden" name="as_qdr" value="all">
+                <input type="hidden" name="safe" value="images">
             </div>
             <div class="inputWrapper">
                 <input id="search_button" type="submit" value="Search">

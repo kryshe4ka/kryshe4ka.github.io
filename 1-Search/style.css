@@ -133,3 +133,45 @@ input[type="submit"]:hover {
 .nav{
     margin:20px 0 25px;
 }
+
+.input_advanced_wrapper{
+    position: relative;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 6px;
+    text-align: left;
+}
+.label{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    color: #222;
+    font-size: 13px;
+    line-height: 29px;
+    vertical-align: middle;
+    width: 16%;
+}
+.field_wrapper{
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 71%;
+}
+.field_wrapper input{
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 4px;
+    z-index: 3;
+    margin: 0 auto;
+    width: 91%;
+    color: rgba(0,0,0,.87);
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    outline: none;
+}
+
